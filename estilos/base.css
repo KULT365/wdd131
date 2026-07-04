@@ -23,10 +23,10 @@ main {
 footer {
     max-width: 1000px;
     margin: 30px auto 0;
-    background-color: #1f4f78;
-    color: white;
-    text-align: center;
-    padding: 20px;
+    background:#1f4f78;
+    color:white;
+    text-align:center;
+    padding:20px;
 }
 
 /* HEADER */
