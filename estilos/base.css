@@ -10,12 +10,23 @@ body{
     color:#333;
 }
 
-header,
-main,
-footer{
-    width:90%;
-    max-width:1000px;
-    margin:auto;
+header {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+main {
+    max-width: 1000px;
+    margin: 30px auto;
+}
+
+footer {
+    max-width: 1000px;
+    margin: 30px auto 0;
+    background-color: #1f4f78;
+    color: white;
+    text-align: center;
+    padding: 20px;
 }
 
 /* HEADER */
