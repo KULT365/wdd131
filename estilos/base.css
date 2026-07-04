@@ -5,7 +5,7 @@
 }
 
 body{
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: "Poppins", sans-serif;
     background:#f5f5f5;
     color:#333;
 }
@@ -54,10 +54,13 @@ nav a:hover{
 
 /* MAIN */
 
-main h1{
+/* MAIN */
+
+main h2{
     text-align:center;
     margin:30px 0;
-    font-size:2.5rem;
+    font-size:2.3rem;
+    font-weight:400;
 }
 
 .cards{
@@ -67,7 +70,7 @@ main h1{
 }
 
 .card{
-    background:white;
+    background:#fff;
     border:1px solid #ccc;
     border-radius:10px;
     overflow:hidden;
@@ -78,17 +81,91 @@ main h1{
     color:white;
     text-align:center;
     padding:12px;
+    font-size:2rem;
+    min-height:70px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
 }
 
-.card img{
-    width:180px;
-    display:block;
-    margin:20px auto;
-}
+/* SOBRE MIM */
 
-.card p{
+.about{
+    display:grid;
+    grid-template-columns:2fr 180px;
+    gap:20px;
     padding:20px;
-    line-height:1.6;
+    align-items:start;
+}
+
+.about img{
+    width:180px;
+    border-radius:5px;
+}
+
+.about p{
+    line-height:1.7;
+}
+
+/* LOCALIZAÇÃO */
+
+.location{
+    padding:20px;
+}
+
+.location h3{
+    text-align:center;
+    font-size:1.4rem;
+    margin-bottom:20px;
+    padding-bottom:8px;
+    border-bottom:1px solid #ccc;
+}
+
+.location-info{
+    display:grid;
+    grid-template-columns:170px 1fr;
+    gap:20px;
+    align-items:center;
+}
+
+.location-info img{
+    width:150px;
+}
+
+.location-info figure{
+    text-align:center;
+}
+
+.location-info figcaption{
+    font-size:.85rem;
+    margin-top:8px;
+    font-style:italic;
+}
+
+.location-info p{
+    line-height:1.7;
+}
+
+/* RECURSOS */
+
+.resources{
+    padding:30px;
+}
+
+.resources ul{
+    padding-left:20px;
+}
+
+.resources li{
+    margin:15px 0;
+}
+
+.resources a{
+    color:#0b57d0;
+}
+
+.resources a:hover{
+    text-decoration:underline;
 }
 
 /* FOOTER */
