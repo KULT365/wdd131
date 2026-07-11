@@ -91,7 +91,7 @@ footer p{
 
 
 /*----------------- BOTÃO DE MENU ---------------*/
-/* Botão do menu */
+
 #menu {
     font-size: 2rem;
     background: none;
@@ -100,7 +100,7 @@ footer p{
     cursor: pointer;
 }
 
-/* Ícone ☰ */
+/*----------------- ICONE ☰ ---------------*/
 #menu::before {
     content: "☰";
 }
@@ -112,8 +112,7 @@ footer p{
 
 /* Esconde o menu no celular */
 .hamburger {
-    display: flex;
-    align-items: center;
+    display: none;
 }
 
 /* Mostra o menu quando clicar */

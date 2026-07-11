@@ -7,5 +7,10 @@
     .hamburger {
         display: flex;
         flex-direction: row;
+        gap: 2rem;
+    }
+
+    .album {
+        grid-template-columns: repeat(3, 1fr);
     }
 }
