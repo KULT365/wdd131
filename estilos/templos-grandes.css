@@ -1,0 +1,30 @@
+@media screen and (min-width: 768px) {
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    nav {
+        flex-direction: row;
+        gap: 2rem;
+    }
+
+    .album {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media screen and (min-width: 768px) {
+
+    #menu {
+        display: none;
+    }
+
+    .hamburger {
+        display: flex;
+        flex-direction: row;
+        gap: 2rem;
+    }
+}
