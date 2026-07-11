@@ -93,6 +93,7 @@ footer p{
 /*----------------- BOTÃO DE MENU ---------------*/
 
 #menu {
+    display: block;
     font-size: 2rem;
     background: none;
     border: none;
@@ -105,17 +106,17 @@ footer p{
     content: "☰";
 }
 
-/* Ícone ✖ */
+/* ----------------  Ícone ✖ ----------------*/
 #menu.open::before {
     content: "✖";
 }
 
-/* Esconde o menu no celular */
+/* ----------------  Esconde o menu no celular  ----------------*/
 .hamburger {
     display: none;
 }
 
-/* Mostra o menu quando clicar */
+/* ----------------  Mostra o menu quando clicar  ----------------*/
 .hamburger.open {
     display: flex;
     flex-direction: column;

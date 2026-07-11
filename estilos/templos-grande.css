@@ -5,7 +5,7 @@
     }
 
     .hamburger {
-        display: flex;
+        display: flex !important;
         flex-direction: row;
         gap: 2rem;
     }
